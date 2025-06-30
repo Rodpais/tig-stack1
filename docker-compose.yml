@@ -2,7 +2,7 @@ version: "3.1"
 
 services:
   influxdb:
-    image: influxdb:2.10.0
+    image: influxdb:2.7.12
     volumes:
       - influxdb-storage:/var/lib/influxdb2:rw
     env_file:
